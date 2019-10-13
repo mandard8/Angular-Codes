@@ -1,10 +1,6 @@
-function evenOdd(number) {
-    let reminder = number % 2;
-    if (reminder == 0) {
-        console.log("even");
-    } else if (reminder == Math.round(reminder)) {
-        console.log("odd");
-    } 
+var num = 13;
+if (num % 2 == 0) {
+   console.log("Even");
+} else {
+   console.log("Odd");
 }
-
-evenOdd(17);
